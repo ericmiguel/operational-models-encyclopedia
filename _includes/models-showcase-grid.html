@@ -1,0 +1,54 @@
+{% if page.callout %}
+{% assign callout=site.data.[page.callout] %}
+<section class="hero {% if callout.height %} {{ callout.height }} {% else %} is-medium {% endif %} {{ callout.style }}">
+    <div class="hero-body">
+        {% for item in callout.items %}
+        <div class="container is-max-widescreen">
+
+            <div class="columns is-variable is-2">
+                <div class="column is-8-desktop is-12-mobile">
+                    {% if item.title %}
+                    <div class="title is-3">{{ item.title }}</div>
+                    {% endif %}
+
+                    {% if item.description %}
+                    <p class="has-text-justified mb-5">{{item.description | newline_to_br }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="container is-max-fullhad">
+            <div class="columns is-variable is-2 is-multiline mb-6">
+                {% for model in item.models %}
+                <div class="column is-3">
+                    <div class="card is-radiusless is-shadowless">
+                        <header class="card-header is-shadowless">
+                            <div class="card-header-title">
+                                {{ model.title }}
+                            </div>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                {% if model.description %}
+                                {{ model.description | newline_to_br }}
+                                {% endif %}
+                            </div>
+                        </div>
+                        <footer class="card-footer"></footer>
+                        {% if model.call_to_action_name %}
+                        <a href="{{ model.call_to_action_link | relative_url }}" class="card-footer-item is-uppercase">
+                            {{ model.call_to_action_name }}
+                        </a>
+                        {% endif %}
+                        </footer>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
+{% endif %}

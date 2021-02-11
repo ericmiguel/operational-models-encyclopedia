@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% unless page.hide_hero %}
+        {% include hero.html %}
+    {% endunless %}
+    {% include models-showcase-grid.html %}
+    <section class="section">
+        <div class="container is-max-widescreen">
+            <div class="columns">
+                <div class="column is-8">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% unless page.hide_footer %}
+        {% include footer.html %}
+    {% endunless %}
+  </body>
+</html>
+

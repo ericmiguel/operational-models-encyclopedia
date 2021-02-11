@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+$family-primary: 'Noto Sans',
+sans-serif;
+$title-family: 'Montserrat',
+sans-serif;
+$primary       : #2d63aa !default;
+$primary-light : #ced9e4;
+$primary-shadow: rgba(37, 57, 81, 0.2);
+$link: $primary !default;
+
+
+$modal-content-width: 800px;
+
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-block-list/src/block-list.scss";
+
+
+@include desktop {
+    .navbar-item {
+        &.is-hoverable:hover {
+            .navbar-dropdown {
+                display: block;
+            }
+        }
+    }
+}
+
+.callout {
+    &-icon {
+        width        : 4rem;
+        height       : 4rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+p {
+    margin-bottom: 1.15em;
+}
+
+.card {
+    border      : 2px solid;
+    border-color: $primary-shadow;
+}
+
+.card-footer {
+    border-top  : 2px solid;
+    border-color: $primary-shadow;
+}
+
+.card-header-title {
+    padding    : 2.5rem 2.5rem 0 2rem;
+    font-size  : 1.5em;
+    font-weight: 300;
+}
+
+.card-content {
+    padding: 1.5rem 2rem;
+}
+
+.card-footer-item {
+    justify-content: left;
+    padding        : 1.5rem 2rem;
+}
+
+
+$radius-rounded: 290486px !default;
+
+.button {
+    &.is-rounded {
+        border-radius: $radius-rounded
+    }
+}
+
+.footer {
+    padding: 10rem 1.5rem 1rem;
+}

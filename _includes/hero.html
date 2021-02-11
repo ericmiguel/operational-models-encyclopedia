@@ -1,0 +1,19 @@
+<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %}" {% if
+    page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;"
+    {% endif %}>
+    <div class="hero-body">
+        <div class="container is-max-widescreen">
+            <div class="columns">
+
+                <div class="column is-6 is-12-mobile">
+                    <h1 class="title is-1 has-text-primary">{{ page.title }}</h1>
+                    <div class="mb-5">{{ page.subtitle }}</div>
+                    {% if page.hero_link %}
+                    <a href="{{ page.hero_link | relative_url }}" class="button is-rounded is-primary p-5 mt-2">{{
+                        page.hero_link_text }}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,90 @@
+style: has-background-primary-light
+height: is-medium
+items:
+  - title: Deterministic models
+    description: > 
+      During the late 80s and 90s, model physics came to the fore, and by the end of that period, vegetation types and greenness, and multilayer soil models became operational. By the 2010s, regional models were available that were of sufficiently-small grid spacing to allow the direct prediction of convection. Global models had mesoscale grid spacing. Parameterized processes were becoming ever more accurate and sophisticated on land, in the atmosphere, and even over bodies of water.
+
+
+      In this encyclopedia section, we will document the aspects of these increasingly complex deterministic NWP models.  As we move forward, the details will be honed down to those that are important for you to remember in the forecast process. More in-depth training materials for new and upgraded models will also be linked from here, such as model upgrade webcasts available from the SOO Training Resource Center (STRC) and NWP training lessons available from COMET.
+    models:
+      - title: GFS
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: NAMB
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: RAP/HRRR
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: HI-RES WINDOW
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: COAMPS
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: NOGAPS
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: ECMWF
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: ANALYSES
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+
+  - title: Probabilistic models
+    description: >
+      The modeler accepts the scientific limitations on NWP and creates an Ensemble Forecast System (EFS), using initial condition sensitivity, model estimates and errors, or both, to tease out potential forecast outcomes. Each member of the ensemble has a unique representation in the range or “envelope” of outcomes. Using the range of outcomes and after removing systematic bias, we can estimate the ensemble mean, spread, probability distributions, and extreme values. EFSs are especially useful in forecasting the probability of high-impact events, and clustering of members around two or more forecast outcomes.
+
+
+      This encyclopedia section provides the methods used to account for both initial condition sensitivity and NWP model approximations and errors for the EFSs produced by most of the world’s meteorological centers. Some of the important details for operational forecasters to consider are sampling of potential initial conditions and the accounting for model approximations.
+    models:
+      - title: GEFS
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: SREF
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: HREF
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: REPS
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+
+  - title: Wave models
+    description: >
+      Wave models are an important component of the National Weather Service suite of products, and support both the Ocean Prediction Center and WFOs with marine forecast responsibilities. These dynamical wave models are driven by NWP forecast 10-m winds; the GFS for the global and basin-wide wave models, and the NAM-B CONUS nest for the Great Lakes wave model.
+
+
+      The Wave encyclopedia describes the WaveWatch III model used by the NWS, the US Navy Fleet Numerical Meteorology and Oceanography Center (FNMOC) wave model, and the Great Lakes Wave model. We describe wave model structure, wave generation methods, and wave propagation and dispersion methods, plus the post-processed output from these models.
+    models:
+      - title: Global Wavewatch III
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: Regional Wavewatch III
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: GLERL
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+      - title: FNMOC
+        call_to_action_name: read more &#8594;
+        call_to_action_link: /articles/page-1/
+        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.

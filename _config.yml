@@ -1,0 +1,55 @@
+# Site Settings
+title: LAMMOC
+tagline: LAMMOC
+email: your-email@domain.com
+description: Lorem Ipsum
+theme: bulma-clean-theme
+url: "https://www.github.com/ericmiguel"
+permalink: pretty
+favicon: favicon.png
+gh_sponsor: ericmiguel
+hide_share_buttons: true
+
+
+plugins:
+  - jekyll-sitemap
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Eric Miguel"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu
