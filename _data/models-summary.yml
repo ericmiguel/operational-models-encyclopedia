@@ -10,8 +10,8 @@ items:
     models:
       - title: GFS
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
-        description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
+        call_to_action_link: /articles/gfs
+        description: The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP).
       - title: NAMB
         call_to_action_name: read more &#8594;
         call_to_action_link: /articles/page-1/
