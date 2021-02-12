@@ -28,7 +28,7 @@ show_sidebar: true
 <p>The spacing of the vertical levels and their flattening with decreasing pressure can be seen the graphic below.</p>
 
 <figure class="is-flex is-justify-content-center">
-    <img alt="GFS Hybrid Sigma Pressure Levels Over North America" src="/img/articles/gfs/gfs-hybrid-sigma-pressure-levels-over-north-america.jpg">
+    <img alt="GFS Hybrid Sigma Pressure Levels Over North America" src="{{ site.baseurl }}/img/articles/gfs/gfs-hybrid-sigma-pressure-levels-over-north-america.jpg">
 </figure>
 
 <p>For more information on the hybrid σ-p coordinate system, see the <a href="https://www.meted.ucar.edu/nwp/model_structure/print.htm#page_2.5.2">Vertical Coordinate section</a> of NWP Training Series Course 1: Impact of model structure and dynamics.</p>
