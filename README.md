@@ -4,7 +4,7 @@ Numerical weather prediction models  (NWPM) are a vital tool for weather forecas
 ## Project setup
 
 - [Install Jekyll](https://jekyllrb.com/docs/installation/)
-- cd '''path/operational-models-encyclopedia'''
+- cd ```path/operational-models-encyclopedia```
 - ```jekyll serve```
 
 ## Contributing
