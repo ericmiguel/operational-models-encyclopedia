@@ -10,10 +10,6 @@ favicon: favicon.png
 gh_sponsor: ericmiguel
 hide_share_buttons: true
 
-
-plugins:
-  - jekyll-sitemap
-
 exclude: 
   - Gemfile
   - clean-theme.gemspec
@@ -29,8 +25,6 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
-
-
 
 defaults:
   -
