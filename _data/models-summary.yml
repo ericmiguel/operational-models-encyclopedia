@@ -14,31 +14,31 @@ items:
         description: The Global Forecast System (GFS) is a weather forecast model produced by the National Centers for Environmental Prediction (NCEP).
       - title: NAMB
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: RAP/HRRR
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: HI-RES WINDOW
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: COAMPS
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: NOGAPS
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: ECMWF
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: ANALYSES
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
 
   - title: Probabilistic models
@@ -50,19 +50,19 @@ items:
     models:
       - title: GEFS
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: SREF
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: HREF
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: REPS
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
 
   - title: Wave models
@@ -74,17 +74,17 @@ items:
     models:
       - title: Global Wavewatch III
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: Regional Wavewatch III
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: GLERL
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
       - title: FNMOC
         call_to_action_name: read more &#8594;
-        call_to_action_link: /articles/page-1/
+        call_to_action_link: /#
         description: Vestibulum venenatis vulputate dui et rhoncus. Nullam mauris justo, semper a consequat in, rhoncus ut ex.
