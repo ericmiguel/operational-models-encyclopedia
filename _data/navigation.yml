@@ -1,23 +1,20 @@
 - name: Deterministic models
-  link: /#
   dropdown:
     - name: Page With Sidebar
-      link: /page-1/
+      link: /#
     - name: Page No Sidebar
-      link: /page-1/
+      link: /#
 - name: Probabilistic models
-  link: /#
   dropdown:
     - name: Page With Sidebar
-      link: /page-1/
+      link: /example-page/
     - name: Page No Sidebar
-      link: /page-1/
+      link: /#
 - name: Wave models
-  link: /#
   dropdown:
     - name: Page With Sidebar
-      link: /page-1/
+      link: /#
     - name: Page No Sidebar
-      link: /page-1/
+      link: /#
 - name: Contribute
   link: /#
